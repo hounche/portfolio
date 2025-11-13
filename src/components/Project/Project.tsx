@@ -449,9 +449,6 @@ export function Project() {
             <img src={bigo1} alt="Capture écran bigo1" />
             <img src={bigo2} alt="Capture écran bigo2" />
             <img src={bigo3} alt="Capture écran bigo3" />
-            <img src={bigo1} alt="Capture écran bigo1" />
-            <img src={bigo2} alt="Capture écran bigo2" />
-            <img src={bigo3} alt="Capture écran bigo3" />
             <img src={bigo4} alt="Capture écran bigo4" />
             <img src={bigo5} alt="Capture écran bigo5" />
             <img src={bigo6} alt="Capture écran bigo6" />
