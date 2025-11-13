@@ -7,6 +7,13 @@ import arzoo1 from "../../assets/arzoo1.png";
 import arzoo2 from "../../assets/arzoo2.png";
 import arzoo3 from "../../assets/arzoo3.png";
 
+import bigo1 from "../../assets/bigo1.png";
+import bigo2 from "../../assets/bigo2.png";
+import bigo3 from "../../assets/bigo3.png";
+import bigo4 from "../../assets/bigo4.png";
+import bigo5 from "../../assets/bigo5.png";
+import bigo6 from "../../assets/bigo6.png";
+
 import ecoute2 from "../../assets/ecoute2.png";
 import ecoute3 from "../../assets/ecoute3.png";
 
@@ -36,20 +43,18 @@ export function Project() {
       <div className="timeline">
         <div className="timeline-item left" data-aos="fade-up">
           <h4>Développeur Fullstack Java / Angular</h4>
-          <p><em>CDD</em> - <em>Au sein de JExcellence</em><br />Nov 2024 – Juin 2025</p>
-          <p><strong>Synthèse :</strong> Conception et développement de systèmes applicatifs robustes et scalables, avec un focus sur la sécurité, la performance et l'expérience utilisateur, dans des environnements techniques modernes.</p>
-          <p><strong>Domaine d’intervention :</strong></p>
+          <p><em>CDI</em> - <em>Au sein de OptoPartner</em><br />Nov 2024 – Nov 2025</p>
+          <p><strong>Contexte :</strong> Conception de l’outils SPOTTEUR sur la stack java/angular/React – developpement from scratch de l’application </p>
+          <p><strong>Réalisations :</strong></p>
           <ul>
-            <li>- Analyse et recueil des besoins métiers et rédaction des spécifications techniques.</li>
-            <li>- Élaboration d’architectures logicielles propres et évolutives.</li>
-            <li>- Conception et implémentation de solutions full-stack (Java, Spring Boot, Angular).</li>
-            <li>- Développement d’API sécurisées avec Spring Security et JWT.</li>
-            <li>- Tests unitaires et d’intégration (JUnit5, Mockito).</li>
-            <li>- Interfaces web responsives et intuitives (Angular, Next.js).</li>
-            <li>- Développement de solutions web/mobile avec Firebase.</li>
-            <li>- Gestion de bases de données PostgreSQL et migrations Liquibase.</li>
-            <li>- Mise en place de pipelines CI/CD (Azure DevOps).</li>
-            <li>- Déploiement et optimisation via Railway et Vercel.</li>
+            <li>- Conception et développement des fonctionnalités back-end du système en Java 23 / Spring Boot, avec une architecture microservices modulaire, améliorant la performance et la maintenabilité du code de +30 %. </li>
+            <li>- Développement d’interfaces utilisateurs dynamiques en Angular 19 et intégration de maquettes UI, offrant une expérience fluide et responsive, avec une réduction du temps de chargement moyen de 40 %. </li>
+            <li>- Création et sécurisation d’APIs RESTful pour la communication interservices, garantissant la fiabilité des échanges et divisant par deux le taux d’erreurs d’intégration. </li>
+            <li>- Mise en place de tests unitaires et d’intégration automatisés via JUnit et Mockito, atteignant une couverture de tests supérieure à 85 % et diminuant de 35 % les anomalies détectées après déploiement. </li>
+            <li>- Optimisation et partitionnement de la base de données avec PostgreSQL et Liquibase, réduisant le temps de traitement des requêtes complexes de 50 %.</li>
+            <li>- Conception et développement d’une version mobile et web mobile de la plateforme Spotteur avec React Native, Next.js, TypeScript et Node.js, élargissant la base utilisateurs de +60 % sur les supports mobiles. </li>
+            <li>- Mise en place d’une chaîne CI/CD complète via Railway et Vercel, automatisant le build, les tests et le déploiement, ce qui a permis de réduire le temps de mise en production de 70 %. </li>
+            <li>- Documentation technique et coordination agile sur Confluence et Jira, participation active aux cérémonies Scrum (daily, sprint review, rétrospectives).</li>
           </ul>
           <p><strong>Environnement technique :</strong></p>
           <p>Java 23, Spring Boot 3.x, Angular 19, Next.js 15, PostgreSQL, Firebase, H2 (Tests), Spring Security, JWT, Liquibase, Maven, JUnit5, Mockito, IntelliJ IDEA, VSCode, Jenkins, Azure DevOps, Railway, Vercel.</p>
@@ -57,76 +62,84 @@ export function Project() {
 
         <div className="timeline-item right" data-aos="fade-up" data-aos-delay="100">
           <br />
-          <h4>Développeur Fullstack Java Angular / Python</h4>
-          <p><em>Alternance</em> - <em>Au sein de GalaadInvest</em><br />Décembre 2023 – Septembre 2024</p>
-          <p><strong>Synthèse :</strong> Développement d'une Application d'Intégration de Données et de Reporting et Conception des modèles intelligents pour l’automatisation des taches. </p>
-          <p><strong>Domaine d’intervention :</strong></p>
+          <h4> Développeur Fullstack Java Angular & ML </h4>
+          <p><em>Alternance</em> - <em>Au sein de GalaadInvest</em><br />Novembre 2023 – Septembre 2024</p>
+          <p><strong>Contexte :</strong>  Développement d’une application d’intégration de données et de reporting pour l’analyse décisionnelle, couplée à la conception de modèles intelligents destinés à automatiser les processus métier et améliorer la productivité opérationnelle </p>
+          <p><strong>Réalisation :</strong></p>
           <ul>
-            <li>- Analyse des besoins métiers et rédaction des spécifications techniques.</li>
-            <li>- Planification des taches.</li>
-            <li>- Conception et développement de pipelines d’intégration de données dans Hadoop.</li>
-            <li>- Développement d’applications full-stack (Java, Spring Boot, Angular).</li>
-            <li>- Développement d’API sécurisées avec Spring Security et JWT.</li>
-            <li>- Tests unitaires et d’intégration (JUnit5, Mockito).</li>
-            <li>- Interfaces web responsives et intuitives (Angular, Next.js).</li>
-            <li>- Intégration des données dans postegreSQL</li>
-            <li>- Déploiement et optimisation via Jenkins.</li>
+            <ul>
+              <li>• Mission 1 :</li>
+              <li>- Développement du front-end en Angular 17, intégrant des composants dynamiques et réactifs améliorant de 40 % la rapidité d’affichage des tableaux de bord.</li>
+              <li>- Conception du back-end en Java 17 / Spring Boot, avec une architecture modulaire et sécurisée, garantissant une meilleure maintenabilité du code et une réduction de 25 % des anomalies post-déploiement.</li>
+              <li>- Intégration et gestion des données via PostgreSQL, incluant des optimisations de requêtes SQL et l’utilisation de pipelines Hadoop pour le traitement distribué de gros volumes de données (gain de performance estimé à +50 % sur les traitements batch).</li>
+              <li>- Conception d’APIs RESTful et mise en place d’une sécurité renforcée avec Spring Security & JWT, assurant la protection de l’ensemble des endpoints sensibles.</li>
+              <li>- Automatisation du déploiement avec Jenkins CI/CD, réduisant les délais de mise en production de plus de 60 %.</li>
+
+              <li>• Mission 2 :</li>
+              <li>-Conception d’un modèle d’attribution intelligent des besoins clients aux prestataires, inspiré de l’architecture BabyAGI, permettant d’automatiser 70 % des tâches d’analyse manuelle.</li>
+              <li>- Connexion du modèle à la base de données via SQLAlchemy, optimisant la synchronisation et la fiabilité des données entre le moteur de recommandation et le back-end applicatif.</li>
+              <li>- Automatisation du processus décisionnel grâce à un agent autonome de recommandation, améliorant la rapidité d’affectation des demandes de 45 %.</li>
+              <li>- Développement d’une interface Python / Angular pour la visualisation en temps réel des attributions et des recommandations générées par le modèle IA.</li>
+              <li>- Mise en place d’une API REST sécurisée et déploiement cloud (Azure / AWS), garantissant scalabilité et résilience du service.</li>
+            </ul>
+
           </ul>
           <p><strong>Environnement technique :</strong></p>
-          <p>Python, Java, Angular, Spark, Kafka, MLflow, DataRobot, Spyder, JupiterNotebook, JUnit, Jenkins, IntelliJ, Hadoop, SpringBoot, PostgreSQL.</p>
+          <p>Java 17, Spring Boot, Angular 17, Python, SQLAlchemy, PostgreSQL, Hadoop, Jenkins, REST API, Spring Security, JWT, Azure, AWS, Docker, CI/CD, Agile (Scrum).</p>
         </div>
 
         <div className="timeline-item left" data-aos="fade-up" data-aos-delay="200">
           <h4>Développeur Python & Testeur</h4>
           <p><em>Stage</em> - <em>Au sein de TotalEnergies</em><br />Avril 2023 – Septembre 2023</p>
-          <p><strong>Synthèse :</strong> Développement d’un système d’une suite de tests automatisés afin de garantir et de faciliter la tâche des testeurs.</p>
-          <p><strong>Synthèse :</strong> Développement d’un système de tests automatisés visant à faciliter le travail des testeurs et garantir la stabilité applicative.</p>
-          <p><strong>Domaine d’intervention :</strong></p>
+          <p><strong>Contexte :</strong> Participation au développement d’une suite de tests automatisés et à l’industrialisation des processus de validation logicielle, dans un objectif d’amélioration continue de la qualité applicative et de réduction des délais de mise en production. </p>
+          <p><strong>Réalisations :</strong></p>
           <ul>
-            <li>Analyse des besoins métiers et des flux de données.</li>
-            <li>Évaluation et sélection de solutions techniques adaptées.</li>
-            <li>Conception d’une suite de tests automatisés couvrant les scénarios critiques.</li>
-            <li>Développement de scripts de test en Python (PyTest).</li>
-            <li>Optimisation des pipelines CI/CD avec Jenkins (tests + déploiement).</li>
-            <li>Validation des tests et contribution à la fiabilité des livraisons.</li>
+            <li>- Analyse des besoins métiers et des flux de données, en étroite collaboration avec les équipes fonctionnelles et techniques afin d’identifier les scénarios critiques à automatisiser.</li>
+            <li>- Évaluation et conception de la solution technique de test, basée sur Python et PyTest, couvrant l’ensemble des cas critiques du cycle de vie applicatif.</li>
+            <li>- Développement et déploiement d’une suite de tests automatisés permettant d’augmenter la couverture de tests de 50 % à 90 %, tout en réduisant les erreurs manuelles de près de 40 %.</li>
+            <li>- Intégration de la stratégie de tests dans la pipeline CI/CD Jenkins, automatisant la validation des builds et accélérant le cycle de déploiement de 30 %.</li>
+            <li>- Mise en place du CI/CD complet avec Jenkins et GitHub, garantissant un contrôle qualité continu et une meilleure traçabilité des versions.</li>
+            <li>- Validation des tests automatisés et suivi qualité via des rapports générés automatiquement, facilitant la communication entre développeurs et testeurs.</li>
           </ul>
+
           <p><strong>Environnement technique :</strong></p>
-          <p>Python, PyTest, Jenkins, GitHub, JavaScript</p>
+          <p>Python, PyTest, Jenkins, GitHub, JavaScript, CI/CD, Agile/Scrum.</p>
         </div>
 
         <div className="timeline-item right" data-aos="fade-up" data-aos-delay="300">
-          <h4>Développeur Python/IA</h4>
-          <p><em>Projet personnel / R&D</em><br />2024</p>
-          <p><strong>Synthèse :</strong> Conception et développement d’un système de publicité intelligent visant à identifier les besoins ciblés des prospects pour améliorer la visibilité marketing de l’entreprise.</p>
-          <p><strong>Domaine d’intervention :</strong></p>
+          <h4>Développeur Python & IA</h4>
+          <p><em>Stage</em> - <em>Au sein de Displayce</em><br />Mai 2022 – Août 2022</p>
+          <p><strong>Contexte :</strong> Participation à la conception et au développement d’un système de publicité intelligent basé sur l’analyse comportementale des prospects, afin d’optimiser le ciblage marketing et la visibilité des campagnes publicitaires. </p>
+          <p><strong>Réalisations :</strong></p>
           <ul>
-            <li>Analyse des besoins métiers et des attentes marketing.</li>
-            <li>Évaluation des solutions techniques pour le ciblage intelligent.</li>
-            <li>Conception de modèles d’intelligence artificielle pour l’analyse des données.</li>
-            <li>Segmentation locale des données utilisateurs.</li>
-            <li>Développement de l’interface graphique pour l’affichage des publicités dynamiques.</li>
-            <li>Mise en place de pipelines CI/CD pour automatiser le déploiement.</li>
-            <li>Validation des tests et vérification de la performance système.</li>
+            <li>- Analyse des besoins métiers et des attentes marketing.</li>
+            <li>- Évaluation des solutions techniques pour le ciblage intelligent.</li>
+            <li>- Conception de modèles d’intelligence artificielle pour l’analyse des données.</li>
+            <li>- Segmentation locale des données utilisateurs.</li>
+            <li>- Développement de l’interface graphique pour l’affichage des publicités dynamiques.</li>
+            <li>- Mise en place de pipelines CI/CD pour automatiser le déploiement.</li>
+            <li>- Validation des tests et vérification de la performance système.</li>
           </ul>
           <p><strong>Environnement technique :</strong></p>
-          <p>Python, Bootstrap, WebSocket, JavaScript, HTML/CSS</p>
+          <p>Python, Bootstrap, WebSocket, JavaScript, HTML5/CSS3, CI/CD, Git, Agile/Scrum.</p>
         </div>
 
         <div className="timeline-item left" data-aos="fade-up" data-aos-delay="400"><br />
           <h4>Développeur Web & Responsable des Logs</h4>
-          <p><em>JANGOLO — Cameroun</em><br />Juin 2021 – Août 2021</p>
-          <p><strong>Synthèse :</strong> Développement d’un système de monitoring des logs pour la détection d’anomalies et de cyberattaques.</p>
-          <p><strong>Domaine d’intervention :</strong></p>
+          <p><em>JANGOLO Sarl</em><br />Juin 2021 – Août 2021</p>
+          <p><strong>Contexte :</strong> Développement d’un système de monitoring des logs pour la détection d’anomalies et de cyberattaques.</p>
+          <p><strong>Réalisations :</strong></p>
           <ul>
-            <li>Analyse et compréhension des besoins métiers en matière de sécurité et de supervision.</li>
-            <li>Évaluation des solutions techniques de centralisation et visualisation des logs.</li>
-            <li>Conception d’une architecture de monitoring basée sur la stack ELK (Elasticsearch, Logstash, Kibana).</li>
-            <li>Développement backend et frontend pour la collecte et la visualisation des logs.</li>
-            <li>Mise en place de pipelines CI/CD pour automatiser le processus de déploiement.</li>
-            <li>Réalisation de tests de validation pour garantir la fiabilité du système.</li>
+            <li>- Analyse des besoins métiers et techniques autour de la supervision applicative et de la sécurité des systèmes.</li>
+            <li>- Conception d’une architecture centralisée basée sur la stack ELK (Elasticsearch, Logstash, Kibana) pour la collecte, le traitement et la visualisation en temps réel des logs.</li>
+            <li>- Développement du back-end et du front-end du système en Laravel, avec intégration du mécanisme de collecte et de normalisation des logs applicatifs.</li>
+            <li>- Automatisation du pipeline CI/CD, permettant le déploiement continu des modules d’analyse et de visualisation, réduisant le temps de livraison des nouvelles fonctionnalités de 50 %.</li>
+            <li>- Mise en place d’un tableau de bord Kibana interactif, facilitant la détection d’anomalies et réduisant le temps moyen de détection d’incidents de 60 %.</li>
+            <li>- Validation des tests (unitaires et d’intégration) avec JUnit, garantissant la fiabilité des traitements et la qualité des déploiements.</li>
           </ul>
+
           <p><strong>Environnement technique :</strong></p>
-          <p>Laravel, ELK (Elasticsearch, Logstash, Kibana), JUnit, HTML/CSS</p>
+          <p>Laravel, ELK (Elasticsearch, Logstash, Kibana), JUnit, HTML5/CSS3, CI/CD, Git, Agile/Scrum. </p>
         </div>
       </div>
 
@@ -418,6 +431,30 @@ export function Project() {
             <img src={dom1} alt="Capture écran dom1" />
             <img src={dom2} alt="Capture écran dom2" />
             <img src={dom3} alt="Capture écran dom3" />
+          </div>
+        </div>
+
+        <div className="capturesline right" data-aos="fade-right">
+          <h4>Bigo Bank</h4>
+          <p><strong>Explication du projet :</strong></p>
+          <ul>
+            <li>
+              BIGO BANK est une application de gestion de comptes bancaires développée dans une architecture hexagonale (ports & adapters). Elle simule les opérations d’un client bancaire : création de comptes, dépôts, retraits, gestion de découvert, plafonds d’épargne et génération de relevés mensuels.
+            </li>
+          </ul>
+          <br />
+          <p><strong>Environnement technique :</strong></p>
+          <p>Free JS</p>
+          <div className="captures-images">
+            <img src={bigo1} alt="Capture écran bigo1" />
+            <img src={bigo2} alt="Capture écran bigo2" />
+            <img src={bigo3} alt="Capture écran bigo3" />
+            <img src={bigo1} alt="Capture écran bigo1" />
+            <img src={bigo2} alt="Capture écran bigo2" />
+            <img src={bigo3} alt="Capture écran bigo3" />
+            <img src={bigo4} alt="Capture écran bigo4" />
+            <img src={bigo5} alt="Capture écran bigo5" />
+            <img src={bigo6} alt="Capture écran bigo6" />
           </div>
         </div>
       </div>

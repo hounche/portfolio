@@ -23,7 +23,7 @@ export function About() {
         <h2 data-aos="fade-left">À propos de moi</h2>
 
         <p data-aos="fade-left" data-aos-delay="100">
-          Bonjour, je suis Cyril Maël Hounché, ingénieur logiciel basé à Paris, France.
+          Bonjour, je suis Cyril Maël Hounché, ingénieur logiciel basé en Ile de France, France.
           J'ai une passion pour la création de solutions logicielles innovantes et efficaces,
           mais également pour le DevOps.
         </p>
