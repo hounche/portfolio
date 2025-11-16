@@ -417,7 +417,7 @@ export function Project() {
 
         <div className="capturesline right" data-aos="fade-right">
           <h4>Doomify</h4>
-          <p><strong>Quelques réalisations en Free JS:</strong></p>
+          <p><strong>Petit projet d'une IA générative:</strong></p>
           <ul>
             <li>
               Projet réalisé notamment pour approfondir mes connaissances en IA,
@@ -426,7 +426,7 @@ export function Project() {
           </ul>
           <br />
           <p><strong>Environnement technique :</strong></p>
-          <p>Free JS</p>
+          <p>Python, ML, pytest, JavaScript</p>
           <div className="captures-images">
             <img src={dom1} alt="Capture écran dom1" />
             <img src={dom2} alt="Capture écran dom2" />
@@ -444,7 +444,7 @@ export function Project() {
           </ul>
           <br />
           <p><strong>Environnement technique :</strong></p>
-          <p>Free JS</p>
+          <p>Python 3.11, FastAPI, SQLAlchemy, SQLite, Pydantic, pytest, Docker, React + Vite, Vanilla CSS (sans Tailwind)</p>
           <div className="captures-images">
             <img src={bigo1} alt="Capture écran bigo1" />
             <img src={bigo2} alt="Capture écran bigo2" />
