@@ -23,24 +23,24 @@ export function About() {
         <h2 data-aos="fade-left">À propos de moi</h2>
 
         <p data-aos="fade-left" data-aos-delay="100">
-          Bonjour, je suis Cyril Maël Hounché, ingénieur logiciel basé en Ile de France, France.
+          Bonjour, je suis Cyril Maël Hounché, ingénieur Chef de projet IT basé à Lille, France.
           J'ai une passion pour la création de solutions logicielles innovantes et efficaces,
-          mais également pour le DevOps.
+          mais également pour la gestion de projet.
         </p>
 
         <p data-aos="fade-left" data-aos-delay="200" style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           Je développe des solutions logicielles, des applications web réactives, j'optimise des
-          modèles d'apprentissage automatique et je mets en œuvre des services backend robustes.
+          modèles d'apprentissage automatique et j'accompagne les équipes et les formes dans la gestion de projet.
         </p>
 
         <p data-aos="fade-left" data-aos-delay="300">
-          Je travaille également avec des plateformes CMS telles que WordPress et Shopify afin d'optimiser
+          Je travaille également avec des plateformes CMS, ERP & CRM tel que : Axiscope, BLG, CashNow, Cegid, Corcentric, Eloficash, D365 Business central/CE, EBP, Esker, Hoopiz, Hubspot, Infocob, Kwote, MyDSO, MySolution Connect, Odoo, Okaveo, Salesforce, Provigis, Sage (50, 100, X3) SAP, Zohoo, Aprovall, WordPress, Shopify afin d'optimiser
           la gestion de contenu ; j'ai aussi une bonne maîtrise de l'infographie avec Photoshop.
         </p>
 
         <div className="education" data-aos="fade-left" data-aos-delay="400">
           <h3>Éducation :</h3>
-          <h4>Diplôme d'ingénieur Informaticien</h4>
+          <h4>Diplôme d'ingénieur chef de projet IT</h4>
           <p>3IL - Limoges, France</p>
           <p>Classes Préparatoires CPGE</p>
         </div>

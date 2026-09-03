@@ -16,9 +16,9 @@ export function Hero() {
         </p>
 
         <h1 data-aos="fade-up" data-aos-delay="200">Cyril Maël Hounché</h1>
-        <h3 data-aos="fade-up" data-aos-delay="400">Ingénieur Logiciel</h3>
+        <h3 data-aos="fade-up" data-aos-delay="400">Ingénieur Chef de projet IT</h3>
         <p className="small-resume" data-aos="fade-up" data-aos-delay="600">
-          Avec 2 années d'expériences
+          Avec 3 années d'expériences
         </p>
 
         <div data-aos="fade-up" data-aos-delay="800">
