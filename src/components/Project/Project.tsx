@@ -35,494 +35,489 @@ import free3 from "../../assets/free3.png";
 
 export function Project() {
   return (
-    <Container id="project">
-      <h2>Mes expériences professionnelles & projets personels</h2>
-      <br />
-      <h3>Expériences Professionnelles</h3>
+  <Container id="project">
+    <h2>Mes expériences professionnelles & projets personels</h2>
+    <br />
+    <h3>Expériences Professionnelles</h3>
 
-<Container id="project">
-  <h2>Mes expériences professionnelles & projets personels</h2>
-  <br />
-  <h3>Expériences Professionnelles</h3>
+    <div className="timeline">
 
-  <div className="timeline">
+      {/* ==================== CREDITSAFE ==================== */}
+      <div className="timeline-item left" data-aos="fade-up">
+        <h4>Chef de projet IT – ERP / CRM</h4>
+        <p>
+          <em>CDD</em> - <em>Au sein de CreditSafe</em>
+          <br />
+          Janvier 2026 – Septembre 2026
+        </p>
 
-    {/* ==================== CREDITSAFE ==================== */}
-    <div className="timeline-item left" data-aos="fade-up">
-      <h4>Chef de projet IT – ERP / CRM</h4>
-      <p>
-        <em>CDD</em> - <em>Au sein de CreditSafe</em>
+        <p>
+          <strong>Contexte :</strong> Pilotage de projets d’intégration IT et
+          accompagnement des clients et partenaires technologiques autour des
+          solutions API et des connecteurs ERP, CRM, Finance, Achats et TPRM/SRM
+          de CreditSafe.
+        </p>
+
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
+
+        <ul>
+          <li>
+            - Pilotage des projets d’intégration IT avec les clients et
+            partenaires technologiques, de l’analyse du besoin jusqu’au
+            déploiement des solutions.
+          </li>
+          <li>
+            - Traduction des besoins métier en architectures API et connecteurs
+            opérationnels pour intégrer les données et services CreditSafe dans
+            différents systèmes ERP/CRM.
+          </li>
+          <li>
+            - Coordination des équipes techniques, métiers, commerciales,
+            clients et partenaires afin d’assurer le bon déroulement des projets
+            et le suivi des livrables.
+          </li>
+          <li>
+            - Déploiement, tests, documentation et maintenance des connecteurs
+            ERP, CRM, Finance, Achats et TPRM/SRM.
+          </li>
+          <li>
+            - Accompagnement des partenaires technologiques dans l’intégration
+            des données CreditSafe et résolution des problématiques techniques
+            rencontrées lors des phases d’intégration.
+          </li>
+          <li>
+            - Analyse et résolution des bugs et anomalies remontés par les
+            partenaires et les clients, avec suivi des actions correctives.
+          </li>
+          <li>
+            - Conception et mise à jour de la documentation technique et
+            fonctionnelle des systèmes ERP/CRM partenaires.
+          </li>
+          <li>
+            - Présentation des données, fonctionnalités et capacités des
+            solutions CreditSafe dans les connecteurs partenaires lors de
+            démonstrations et rendez-vous techniques.
+          </li>
+          <li>
+            - Formation et accompagnement des équipes commerciales et partenaires
+            sur les fonctionnalités, enjeux techniques et bonnes pratiques liés
+            aux API et connecteurs.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          API REST, ERP, CRM, TPRM/SRM, Finance, Achats, Microsoft Dynamics 365,
+          Business Central, Salesforce, SAP, HubSpot, Sage, Odoo, Esker, EBP,
+          Sidetrade, MyDSO, Axiscope, BLG, Postman, API Integration, Agile/Scrum.
+        </p>
+      </div>
+
+
+      {/* ==================== OPTOPARTNER ==================== */}
+      <div
+        className="timeline-item right"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
         <br />
-        Janvier 2026 – Septembre 2026
-      </p>
+        <h4>Chef de projet IT & Développeur Fullstack Java / Angular</h4>
 
-      <p>
-        <strong>Contexte :</strong> Pilotage de projets d’intégration IT et
-        accompagnement des clients et partenaires technologiques autour des
-        solutions API et des connecteurs ERP, CRM, Finance, Achats et TPRM/SRM
-        de CreditSafe.
-      </p>
+        <p>
+          <em>CDI</em> - <em>Au sein de OptoPartner</em>
+          <br />
+          Novembre 2024 – Novembre 2025
+        </p>
 
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
+        <p>
+          <strong>Contexte :</strong> Conception de l’outil SPOTTEUR sur la stack
+          Java / Angular / React – développement from scratch de l’application.
+        </p>
 
-      <ul>
-        <li>
-          - Pilotage des projets d’intégration IT avec les clients et
-          partenaires technologiques, de l’analyse du besoin jusqu’au
-          déploiement des solutions.
-        </li>
-        <li>
-          - Traduction des besoins métier en architectures API et connecteurs
-          opérationnels pour intégrer les données et services CreditSafe dans
-          différents systèmes ERP/CRM.
-        </li>
-        <li>
-          - Coordination des équipes techniques, métiers, commerciales,
-          clients et partenaires afin d’assurer le bon déroulement des projets
-          et le suivi des livrables.
-        </li>
-        <li>
-          - Déploiement, tests, documentation et maintenance des connecteurs
-          ERP, CRM, Finance, Achats et TPRM/SRM.
-        </li>
-        <li>
-          - Accompagnement des partenaires technologiques dans l’intégration
-          des données CreditSafe et résolution des problématiques techniques
-          rencontrées lors des phases d’intégration.
-        </li>
-        <li>
-          - Analyse et résolution des bugs et anomalies remontés par les
-          partenaires et les clients, avec suivi des actions correctives.
-        </li>
-        <li>
-          - Conception et mise à jour de la documentation technique et
-          fonctionnelle des systèmes ERP/CRM partenaires.
-        </li>
-        <li>
-          - Présentation des données, fonctionnalités et capacités des
-          solutions CreditSafe dans les connecteurs partenaires lors de
-          démonstrations et rendez-vous techniques.
-        </li>
-        <li>
-          - Formation et accompagnement des équipes commerciales et partenaires
-          sur les fonctionnalités, enjeux techniques et bonnes pratiques liés
-          aux API et connecteurs.
-        </li>
-      </ul>
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
 
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
+        <ul>
+          <li>
+            - Conception et développement des fonctionnalités back-end du
+            système en Java 23 / Spring Boot, avec une architecture microservices
+            modulaire, améliorant la performance et la maintenabilité du code de
+            +30 %.
+          </li>
 
-      <p>
-        API REST, ERP, CRM, TPRM/SRM, Finance, Achats, Microsoft Dynamics 365,
-        Business Central, Salesforce, SAP, HubSpot, Sage, Odoo, Esker, EBP,
-        Sidetrade, MyDSO, Axiscope, BLG, Postman, API Integration, Agile/Scrum.
-      </p>
+          <li>
+            - Développement d’interfaces utilisateurs dynamiques en Angular 19
+            et intégration de maquettes UI, offrant une expérience fluide et
+            responsive, avec une réduction du temps de chargement moyen de 40 %.
+          </li>
+
+          <li>
+            - Création et sécurisation d’APIs RESTful pour la communication
+            interservices, garantissant la fiabilité des échanges et divisant par
+            deux le taux d’erreurs d’intégration.
+          </li>
+
+          <li>
+            - Mise en place de tests unitaires et d’intégration automatisés via
+            JUnit et Mockito, atteignant une couverture de tests supérieure à
+            85 % et diminuant de 35 % les anomalies détectées après déploiement.
+          </li>
+
+          <li>
+            - Optimisation et partitionnement de la base de données avec
+            PostgreSQL et Liquibase, réduisant le temps de traitement des
+            requêtes complexes de 50 %.
+          </li>
+
+          <li>
+            - Conception et développement d’une version mobile et web mobile de
+            la plateforme Spotteur avec React Native, Next.js, TypeScript et
+            Node.js, élargissant la base utilisateurs de +60 % sur les supports
+            mobiles.
+          </li>
+
+          <li>
+            - Mise en place d’une chaîne CI/CD complète via Railway et Vercel,
+            automatisant le build, les tests et le déploiement, ce qui a permis
+            de réduire le temps de mise en production de 70 %.
+          </li>
+
+          <li>
+            - Documentation technique et coordination agile sur Confluence et
+            Jira, participation active aux cérémonies Scrum (daily, sprint
+            review, rétrospectives).
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          Java 23, Spring Boot 3.x, Angular 19, Next.js 15, PostgreSQL, Firebase,
+          H2 (Tests), Spring Security, JWT, Liquibase, Maven, JUnit5, Mockito,
+          IntelliJ IDEA, VSCode, Jenkins, Azure DevOps, Railway, Vercel.
+        </p>
+      </div>
+
+
+      {/* ==================== GALAADINVEST ==================== */}
+      <div
+        className="timeline-item left"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        <h4>Développeur Fullstack Java Angular & ML</h4>
+
+        <p>
+          <em>Alternance</em> - <em>Au sein de Galaad Autonomie</em>
+          <br />
+          Novembre 2023 – Septembre 2024
+        </p>
+
+        <p>
+          <strong>Contexte :</strong> Développement d’une application
+          d’intégration de données et de reporting pour l’analyse décisionnelle,
+          couplée à la conception de modèles intelligents destinés à automatiser
+          les processus métier et améliorer la productivité opérationnelle.
+        </p>
+
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
+
+        <ul>
+          <li>
+            <strong>• Mission 1 :</strong>
+          </li>
+
+          <li>
+            - Développement du front-end en Angular 17, intégrant des composants
+            dynamiques et réactifs améliorant de 40 % la rapidité d’affichage des
+            tableaux de bord.
+          </li>
+
+          <li>
+            - Conception du back-end en Java 17 / Spring Boot, avec une
+            architecture modulaire et sécurisée, garantissant une meilleure
+            maintenabilité du code et une réduction de 25 % des anomalies
+            post-déploiement.
+          </li>
+
+          <li>
+            - Intégration et gestion des données via PostgreSQL, incluant des
+            optimisations de requêtes SQL et l’utilisation de pipelines Hadoop
+            pour le traitement distribué de gros volumes de données (gain de
+            performance estimé à +50 % sur les traitements batch).
+          </li>
+
+          <li>
+            - Conception d’APIs RESTful et mise en place d’une sécurité renforcée
+            avec Spring Security & JWT, assurant la protection de l’ensemble des
+            endpoints sensibles.
+          </li>
+
+          <li>
+            - Automatisation du déploiement avec Jenkins CI/CD, réduisant les
+            délais de mise en production de plus de 60 %.
+          </li>
+
+          <li>
+            <strong>• Mission 2 :</strong>
+          </li>
+
+          <li>
+            - Conception d’un modèle d’attribution intelligent des besoins
+            clients aux prestataires, inspiré de l’architecture BabyAGI,
+            permettant d’automatiser 70 % des tâches d’analyse manuelle.
+          </li>
+
+          <li>
+            - Connexion du modèle à la base de données via SQLAlchemy, optimisant
+            la synchronisation et la fiabilité des données entre le moteur de
+            recommandation et le back-end applicatif.
+          </li>
+
+          <li>
+            - Automatisation du processus décisionnel grâce à un agent autonome
+            de recommandation, améliorant la rapidité d’affectation des demandes
+            de 45 %.
+          </li>
+
+          <li>
+            - Développement d’une interface Python / Angular pour la
+            visualisation en temps réel des attributions et des recommandations
+            générées par le modèle IA.
+          </li>
+
+          <li>
+            - Mise en place d’une API REST sécurisée et déploiement cloud
+            (Azure / AWS), garantissant scalabilité et résilience du service.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          Java 17, Spring Boot, Angular 17, Python, SQLAlchemy, PostgreSQL,
+          Hadoop, Jenkins, REST API, Spring Security, JWT, Azure, AWS, Docker,
+          CI/CD, Agile (Scrum).
+        </p>
+      </div>
+
+
+      {/* ==================== TOTALENERGIES ==================== */}
+      <div
+        className="timeline-item right"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
+        <h4>Développeur Python & Testeur</h4>
+
+        <p>
+          <em>Stage</em> - <em>Au sein de TotalEnergies</em>
+          <br />
+          Avril 2023 – Septembre 2023
+        </p>
+
+        <p>
+          <strong>Contexte :</strong> Participation au développement d’une suite
+          de tests automatisés et à l’industrialisation des processus de
+          validation logicielle, dans un objectif d’amélioration continue de la
+          qualité applicative et de réduction des délais de mise en production.
+        </p>
+
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
+
+        <ul>
+          <li>
+            - Analyse des besoins métiers et des flux de données, en étroite
+            collaboration avec les équipes fonctionnelles et techniques afin
+            d’identifier les scénarios critiques à automatiser.
+          </li>
+
+          <li>
+            - Évaluation et conception de la solution technique de test, basée
+            sur Python et PyTest, couvrant l’ensemble des cas critiques du cycle
+            de vie applicatif.
+          </li>
+
+          <li>
+            - Développement et déploiement d’une suite de tests automatisés
+            permettant d’augmenter la couverture de tests de 50 % à 90 %, tout
+            en réduisant les erreurs manuelles de près de 40 %.
+          </li>
+
+          <li>
+            - Intégration de la stratégie de tests dans la pipeline CI/CD Jenkins,
+            automatisant la validation des builds et accélérant le cycle de
+            déploiement de 30 %.
+          </li>
+
+          <li>
+            - Mise en place du CI/CD complet avec Jenkins et GitHub, garantissant
+            un contrôle qualité continu et une meilleure traçabilité des versions.
+          </li>
+
+          <li>
+            - Validation des tests automatisés et suivi qualité via des rapports
+            générés automatiquement, facilitant la communication entre
+            développeurs et testeurs.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          Python, PyTest, Jenkins, GitHub, JavaScript, CI/CD, Agile/Scrum.
+        </p>
+      </div>
+
+
+      {/* ==================== DISPLAYCE ==================== */}
+      <div
+        className="timeline-item left"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
+        <h4>Développeur Python & IA</h4>
+
+        <p>
+          <em>Stage</em> - <em>Au sein de Displayce</em>
+          <br />
+          Mai 2022 – Août 2022
+        </p>
+
+        <p>
+          <strong>Contexte :</strong> Participation à la conception et au
+          développement d’un système de publicité intelligent basé sur l’analyse
+          comportementale des prospects, afin d’optimiser le ciblage marketing
+          et la visibilité des campagnes publicitaires.
+        </p>
+
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
+
+        <ul>
+          <li>- Analyse des besoins métiers et des attentes marketing.</li>
+          <li>
+            - Évaluation des solutions techniques pour le ciblage intelligent.
+          </li>
+          <li>
+            - Conception de modèles d’intelligence artificielle pour l’analyse
+            des données.
+          </li>
+          <li>- Segmentation locale des données utilisateurs.</li>
+          <li>
+            - Développement de l’interface graphique pour l’affichage des
+            publicités dynamiques.
+          </li>
+          <li>
+            - Mise en place de pipelines CI/CD pour automatiser le déploiement.
+          </li>
+          <li>
+            - Validation des tests et vérification de la performance système.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          Python, Bootstrap, WebSocket, JavaScript, HTML5/CSS3, CI/CD, Git,
+          Agile/Scrum.
+        </p>
+      </div>
+
+
+      {/* ==================== JANGOLO ==================== */}
+      <div
+        className="timeline-item right"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <br />
+
+        <h4>Développeur Web & Responsable des Logs</h4>
+
+        <p>
+          <em>JANGOLO Sarl</em>
+          <br />
+          Juin 2021 – Août 2021
+        </p>
+
+        <p>
+          <strong>Contexte :</strong> Développement d’un système de monitoring
+          des logs pour la détection d’anomalies et de cyberattaques.
+        </p>
+
+        <p>
+          <strong>Réalisations :</strong>
+        </p>
+
+        <ul>
+          <li>
+            - Analyse des besoins métiers et techniques autour de la supervision
+            applicative et de la sécurité des systèmes.
+          </li>
+
+          <li>
+            - Conception d’une architecture centralisée basée sur la stack ELK
+            (Elasticsearch, Logstash, Kibana) pour la collecte, le traitement et
+            la visualisation en temps réel des logs.
+          </li>
+
+          <li>
+            - Développement du back-end et du front-end du système en Laravel,
+            avec intégration du mécanisme de collecte et de normalisation des
+            logs applicatifs.
+          </li>
+
+          <li>
+            - Automatisation du pipeline CI/CD, permettant le déploiement continu
+            des modules d’analyse et de visualisation, réduisant le temps de
+            livraison des nouvelles fonctionnalités de 50 %.
+          </li>
+
+          <li>
+            - Mise en place d’un tableau de bord Kibana interactif, facilitant la
+            détection d’anomalies et réduisant le temps moyen de détection
+            d’incidents de 60 %.
+          </li>
+
+          <li>
+            - Validation des tests (unitaires et d’intégration) avec JUnit,
+            garantissant la fiabilité des traitements et la qualité des
+            déploiements.
+          </li>
+        </ul>
+
+        <p>
+          <strong>Environnement technique :</strong>
+        </p>
+
+        <p>
+          Laravel, ELK (Elasticsearch, Logstash, Kibana), JUnit, HTML5/CSS3,
+          CI/CD, Git, Agile/Scrum.
+        </p>
+      </div>
+
     </div>
 
-
-    {/* ==================== OPTOPARTNER ==================== */}
-    <div
-      className="timeline-item right"
-      data-aos="fade-up"
-      data-aos-delay="100"
-    >
-      <br />
-      <h4>Chef de projet IT & Développeur Fullstack Java / Angular</h4>
-
-      <p>
-        <em>CDI</em> - <em>Au sein de OptoPartner</em>
-        <br />
-        Novembre 2024 – Novembre 2025
-      </p>
-
-      <p>
-        <strong>Contexte :</strong> Conception de l’outil SPOTTEUR sur la stack
-        Java / Angular / React – développement from scratch de l’application.
-      </p>
-
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
-
-      <ul>
-        <li>
-          - Conception et développement des fonctionnalités back-end du
-          système en Java 23 / Spring Boot, avec une architecture microservices
-          modulaire, améliorant la performance et la maintenabilité du code de
-          +30 %.
-        </li>
-
-        <li>
-          - Développement d’interfaces utilisateurs dynamiques en Angular 19
-          et intégration de maquettes UI, offrant une expérience fluide et
-          responsive, avec une réduction du temps de chargement moyen de 40 %.
-        </li>
-
-        <li>
-          - Création et sécurisation d’APIs RESTful pour la communication
-          interservices, garantissant la fiabilité des échanges et divisant par
-          deux le taux d’erreurs d’intégration.
-        </li>
-
-        <li>
-          - Mise en place de tests unitaires et d’intégration automatisés via
-          JUnit et Mockito, atteignant une couverture de tests supérieure à
-          85 % et diminuant de 35 % les anomalies détectées après déploiement.
-        </li>
-
-        <li>
-          - Optimisation et partitionnement de la base de données avec
-          PostgreSQL et Liquibase, réduisant le temps de traitement des
-          requêtes complexes de 50 %.
-        </li>
-
-        <li>
-          - Conception et développement d’une version mobile et web mobile de
-          la plateforme Spotteur avec React Native, Next.js, TypeScript et
-          Node.js, élargissant la base utilisateurs de +60 % sur les supports
-          mobiles.
-        </li>
-
-        <li>
-          - Mise en place d’une chaîne CI/CD complète via Railway et Vercel,
-          automatisant le build, les tests et le déploiement, ce qui a permis
-          de réduire le temps de mise en production de 70 %.
-        </li>
-
-        <li>
-          - Documentation technique et coordination agile sur Confluence et
-          Jira, participation active aux cérémonies Scrum (daily, sprint
-          review, rétrospectives).
-        </li>
-      </ul>
-
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
-
-      <p>
-        Java 23, Spring Boot 3.x, Angular 19, Next.js 15, PostgreSQL, Firebase,
-        H2 (Tests), Spring Security, JWT, Liquibase, Maven, JUnit5, Mockito,
-        IntelliJ IDEA, VSCode, Jenkins, Azure DevOps, Railway, Vercel.
-      </p>
-    </div>
-
-
-    {/* ==================== GALAADINVEST ==================== */}
-    <div
-      className="timeline-item left"
-      data-aos="fade-up"
-      data-aos-delay="200"
-    >
-      <h4>Développeur Fullstack Java Angular & ML</h4>
-
-      <p>
-        <em>Alternance</em> - <em>Au sein de Galaad Autonomie</em>
-        <br />
-        Novembre 2023 – Septembre 2024
-      </p>
-
-      <p>
-        <strong>Contexte :</strong> Développement d’une application
-        d’intégration de données et de reporting pour l’analyse décisionnelle,
-        couplée à la conception de modèles intelligents destinés à automatiser
-        les processus métier et améliorer la productivité opérationnelle.
-      </p>
-
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
-
-      <ul>
-        <li>
-          <strong>• Mission 1 :</strong>
-        </li>
-
-        <li>
-          - Développement du front-end en Angular 17, intégrant des composants
-          dynamiques et réactifs améliorant de 40 % la rapidité d’affichage des
-          tableaux de bord.
-        </li>
-
-        <li>
-          - Conception du back-end en Java 17 / Spring Boot, avec une
-          architecture modulaire et sécurisée, garantissant une meilleure
-          maintenabilité du code et une réduction de 25 % des anomalies
-          post-déploiement.
-        </li>
-
-        <li>
-          - Intégration et gestion des données via PostgreSQL, incluant des
-          optimisations de requêtes SQL et l’utilisation de pipelines Hadoop
-          pour le traitement distribué de gros volumes de données (gain de
-          performance estimé à +50 % sur les traitements batch).
-        </li>
-
-        <li>
-          - Conception d’APIs RESTful et mise en place d’une sécurité renforcée
-          avec Spring Security & JWT, assurant la protection de l’ensemble des
-          endpoints sensibles.
-        </li>
-
-        <li>
-          - Automatisation du déploiement avec Jenkins CI/CD, réduisant les
-          délais de mise en production de plus de 60 %.
-        </li>
-
-        <li>
-          <strong>• Mission 2 :</strong>
-        </li>
-
-        <li>
-          - Conception d’un modèle d’attribution intelligent des besoins
-          clients aux prestataires, inspiré de l’architecture BabyAGI,
-          permettant d’automatiser 70 % des tâches d’analyse manuelle.
-        </li>
-
-        <li>
-          - Connexion du modèle à la base de données via SQLAlchemy, optimisant
-          la synchronisation et la fiabilité des données entre le moteur de
-          recommandation et le back-end applicatif.
-        </li>
-
-        <li>
-          - Automatisation du processus décisionnel grâce à un agent autonome
-          de recommandation, améliorant la rapidité d’affectation des demandes
-          de 45 %.
-        </li>
-
-        <li>
-          - Développement d’une interface Python / Angular pour la
-          visualisation en temps réel des attributions et des recommandations
-          générées par le modèle IA.
-        </li>
-
-        <li>
-          - Mise en place d’une API REST sécurisée et déploiement cloud
-          (Azure / AWS), garantissant scalabilité et résilience du service.
-        </li>
-      </ul>
-
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
-
-      <p>
-        Java 17, Spring Boot, Angular 17, Python, SQLAlchemy, PostgreSQL,
-        Hadoop, Jenkins, REST API, Spring Security, JWT, Azure, AWS, Docker,
-        CI/CD, Agile (Scrum).
-      </p>
-    </div>
-
-
-    {/* ==================== TOTALENERGIES ==================== */}
-    <div
-      className="timeline-item right"
-      data-aos="fade-up"
-      data-aos-delay="300"
-    >
-      <h4>Développeur Python & Testeur</h4>
-
-      <p>
-        <em>Stage</em> - <em>Au sein de TotalEnergies</em>
-        <br />
-        Avril 2023 – Septembre 2023
-      </p>
-
-      <p>
-        <strong>Contexte :</strong> Participation au développement d’une suite
-        de tests automatisés et à l’industrialisation des processus de
-        validation logicielle, dans un objectif d’amélioration continue de la
-        qualité applicative et de réduction des délais de mise en production.
-      </p>
-
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
-
-      <ul>
-        <li>
-          - Analyse des besoins métiers et des flux de données, en étroite
-          collaboration avec les équipes fonctionnelles et techniques afin
-          d’identifier les scénarios critiques à automatiser.
-        </li>
-
-        <li>
-          - Évaluation et conception de la solution technique de test, basée
-          sur Python et PyTest, couvrant l’ensemble des cas critiques du cycle
-          de vie applicatif.
-        </li>
-
-        <li>
-          - Développement et déploiement d’une suite de tests automatisés
-          permettant d’augmenter la couverture de tests de 50 % à 90 %, tout
-          en réduisant les erreurs manuelles de près de 40 %.
-        </li>
-
-        <li>
-          - Intégration de la stratégie de tests dans la pipeline CI/CD Jenkins,
-          automatisant la validation des builds et accélérant le cycle de
-          déploiement de 30 %.
-        </li>
-
-        <li>
-          - Mise en place du CI/CD complet avec Jenkins et GitHub, garantissant
-          un contrôle qualité continu et une meilleure traçabilité des versions.
-        </li>
-
-        <li>
-          - Validation des tests automatisés et suivi qualité via des rapports
-          générés automatiquement, facilitant la communication entre
-          développeurs et testeurs.
-        </li>
-      </ul>
-
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
-
-      <p>
-        Python, PyTest, Jenkins, GitHub, JavaScript, CI/CD, Agile/Scrum.
-      </p>
-    </div>
-
-
-    {/* ==================== DISPLAYCE ==================== */}
-    <div
-      className="timeline-item left"
-      data-aos="fade-up"
-      data-aos-delay="400"
-    >
-      <h4>Développeur Python & IA</h4>
-
-      <p>
-        <em>Stage</em> - <em>Au sein de Displayce</em>
-        <br />
-        Mai 2022 – Août 2022
-      </p>
-
-      <p>
-        <strong>Contexte :</strong> Participation à la conception et au
-        développement d’un système de publicité intelligent basé sur l’analyse
-        comportementale des prospects, afin d’optimiser le ciblage marketing
-        et la visibilité des campagnes publicitaires.
-      </p>
-
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
-
-      <ul>
-        <li>- Analyse des besoins métiers et des attentes marketing.</li>
-        <li>
-          - Évaluation des solutions techniques pour le ciblage intelligent.
-        </li>
-        <li>
-          - Conception de modèles d’intelligence artificielle pour l’analyse
-          des données.
-        </li>
-        <li>- Segmentation locale des données utilisateurs.</li>
-        <li>
-          - Développement de l’interface graphique pour l’affichage des
-          publicités dynamiques.
-        </li>
-        <li>
-          - Mise en place de pipelines CI/CD pour automatiser le déploiement.
-        </li>
-        <li>
-          - Validation des tests et vérification de la performance système.
-        </li>
-      </ul>
-
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
-
-      <p>
-        Python, Bootstrap, WebSocket, JavaScript, HTML5/CSS3, CI/CD, Git,
-        Agile/Scrum.
-      </p>
-    </div>
-
-
-    {/* ==================== JANGOLO ==================== */}
-    <div
-      className="timeline-item right"
-      data-aos="fade-up"
-      data-aos-delay="500"
-    >
-      <br />
-
-      <h4>Développeur Web & Responsable des Logs</h4>
-
-      <p>
-        <em>JANGOLO Sarl</em>
-        <br />
-        Juin 2021 – Août 2021
-      </p>
-
-      <p>
-        <strong>Contexte :</strong> Développement d’un système de monitoring
-        des logs pour la détection d’anomalies et de cyberattaques.
-      </p>
-
-      <p>
-        <strong>Réalisations :</strong>
-      </p>
-
-      <ul>
-        <li>
-          - Analyse des besoins métiers et techniques autour de la supervision
-          applicative et de la sécurité des systèmes.
-        </li>
-
-        <li>
-          - Conception d’une architecture centralisée basée sur la stack ELK
-          (Elasticsearch, Logstash, Kibana) pour la collecte, le traitement et
-          la visualisation en temps réel des logs.
-        </li>
-
-        <li>
-          - Développement du back-end et du front-end du système en Laravel,
-          avec intégration du mécanisme de collecte et de normalisation des
-          logs applicatifs.
-        </li>
-
-        <li>
-          - Automatisation du pipeline CI/CD, permettant le déploiement continu
-          des modules d’analyse et de visualisation, réduisant le temps de
-          livraison des nouvelles fonctionnalités de 50 %.
-        </li>
-
-        <li>
-          - Mise en place d’un tableau de bord Kibana interactif, facilitant la
-          détection d’anomalies et réduisant le temps moyen de détection
-          d’incidents de 60 %.
-        </li>
-
-        <li>
-          - Validation des tests (unitaires et d’intégration) avec JUnit,
-          garantissant la fiabilité des traitements et la qualité des
-          déploiements.
-        </li>
-      </ul>
-
-      <p>
-        <strong>Environnement technique :</strong>
-      </p>
-
-      <p>
-        Laravel, ELK (Elasticsearch, Logstash, Kibana), JUnit, HTML5/CSS3,
-        CI/CD, Git, Agile/Scrum.
-      </p>
-    </div>
-
-  </div>
-</Container>
 
       <br />
       <h3>Projets</h3>
