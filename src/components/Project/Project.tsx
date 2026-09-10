@@ -44,11 +44,11 @@ export function Project() {
 
       {/* ==================== CREDITSAFE ==================== */}
       <div className="timeline-item left" data-aos="fade-up">
-        <h4>Chef de projet IT – ERP / CRM</h4>
+        <h4>Consultant Technique – ERP / CRM</h4>
         <p>
           <em>CDD</em> - <em>Au sein de CreditSafe</em>
           <br />
-          Janvier 2026 – Septembre 2026
+          Janvier 2026 – Aujourd'hui
         </p>
 
         <p>
