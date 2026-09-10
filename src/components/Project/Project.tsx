@@ -607,7 +607,7 @@ export function Project() {
           <footer>
             <ul className="tech-list">
               <li>Java</li>
-              <li>ReactNative</li>
+              <li>React Native</li>
               <li>API Rest</li>
             </ul>
           </footer>
